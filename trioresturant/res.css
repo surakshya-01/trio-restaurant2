@@ -1,0 +1,219 @@
+/* univarsal section */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* logo container */
+.logo-container{
+    text-align: center;
+}
+    
+/* logo */
+        
+.logo1{
+    font-family: great vibes, cursive;
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+}
+
+.logo2{
+    letter-spacing: 4px;
+    margin-top: 3px;
+}
+
+/* navigation section */
+
+nav{
+    display: flex;
+   
+}
+.nav-list{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-left: 70px ;
+    list-style-type: none;
+    padding-left: 2rem;
+    width: 100%;
+     
+}
+.nav-list a{
+    color: #333;
+    text-decoration: none;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    
+}
+ /* focus section */
+.focus{
+ background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center
+}
+.focus1{
+  max-width: 800px;
+  margin:   0 auto 40px;
+  color: #666;
+  font-size: 25px;
+}
+
+/* card container */
+.feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px; 
+    padding-inline: 10px;
+}
+/* card section */
+.card{
+    background-color: white;
+    width: 300px;
+    padding-bottom: 50px;
+   transition: transform 0.3s ease;
+
+}
+
+/* image inside card section */
+.card img{
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;  
+}   
+
+/* text inside card */
+.card h3{
+    margin: 10px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+    padding: 0 15px;
+}
+
+/* nav hover */
+nav a {
+  color: #ffe6cc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: normal;
+}
+
+nav a:hover,
+nav a:active {
+  color: #ff9900;
+  transition: color 0.3s ease;
+}
+
+/* background images section */
+.highlight-section{
+    background-image: url(images\ health\ -\ Copy.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width:  100%;
+    display: flex;
+    padding-left: 60px;
+    position: relative;
+    justify-content: flex-start;
+    
+}
+    
+.highlight-text{
+    background: white;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding: 30px;
+    max-width: 390px;
+    border-radius: 10px;
+    transition: 20px 0.3 ease;
+    margin-left: 250px;
+}
+
+.highlight-text p{
+    margin-bottom: 20px;
+}
+
+.highlight-button{
+ background-color: #d2691e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.highlight-button :hover{
+background: white;
+color: orange;
+border: 2px solid orange; 
+}
+
+/* footer section box contai.... */
+
+/* footer container */
+.footer-container{
+    background-color: #222;
+    color: white;
+   padding: 30px;
+   font-family: sans-serif;
+   width: 100%;
+}
+
+/* footer-row */
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+ 
+/* footer column */
+.footer-column{
+   flex:1 1 45%;
+    margin-bottom: 10px;
+}
+
+/* footer column h2 */
+.footer-column h3{
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+/* footer bottom  reserved part*/
+.footer-bottom{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;  
+}
+
+@media (max-width: 700px){
+    .nav-list{
+        display: none;
+    }
+    nav{
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+}
